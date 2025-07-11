@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/gerar-letra.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/gerar-letra", "dest": "api/gerar-letra.js" }
+  ]
+}
